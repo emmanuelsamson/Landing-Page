@@ -1,0 +1,174 @@
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin:0;
+}
+
+.homepage{
+    background-color: black;
+    padding:30px 10px;
+}
+
+nav{
+    margin-top: 0;
+    color: azure;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.navbar{
+    float: right;
+    margin-left: auto;
+}
+
+.logo{
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+ul li a{
+    color: azure;
+    text-decoration: none;
+}
+
+/* section for the homge picture */
+.sec-1{
+    width: 50%;
+    float: left;
+}
+h1{
+    color: white;
+    font-size: 4.5rem;
+    margin-top: 60px;
+    padding-left: 70px;
+}
+
+.sub-topic{
+    color: rgb(223, 217, 217);
+    padding-left: 70px;
+}
+
+.start{
+    margin-left: 70px;
+    background-color: red;
+    color: whitesmoke;
+    font-weight: 700;
+    padding: 20px 50px;
+    border-color: none;
+    border-radius: 30px;
+}
+
+.homeimage{
+    margin-left: 60px;
+    margin-bottom: 100px;
+}
+
+/* section for the starting*/
+.second-section{
+    margin-top: 100px;
+}
+
+.price-t{
+    font-size: 2.5rem;
+    margin-bottom: -0.5rem;
+}
+
+.price-t, .price-ts{
+    text-align: center;
+}
+
+.search-box{
+    position: relative;
+    margin: auto;
+} 
+
+.box{
+    margin-left:330px;
+    border-radius: 40px;
+    border-style: none;
+    background-color: white;
+    padding: 1.6rem;
+    width: 50%;
+    box-shadow: 7px 5px 30px 10px rgb(233, 233, 241);
+}
+
+/* .com{
+    background-color: aquamarine;
+} */
+ul .domain-extention{
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.domain-list{
+    text-align: center;
+}
+
+.domain-extention{
+    list-style: none;
+    display: inline-block
+}
+
+.com{
+    background-color: aqua;
+    border-radius: 30px;
+    font-size: small;
+}
+
+.pricing-tag{
+    margin-top: 250px;
+}
+
+.price-tag-1{
+    width: 30%;
+    float: right;
+    margin:10px 10px%;
+    padding: 15px;
+    box-shadow: 2px 5px 5px 10px rgb(233, 233, 241);
+}
+
+/* section for the price header */
+.heading{
+    background-color: #00d9ff;
+    padding: 10px 20px;
+    color: white;
+}
+
+.heading2{
+    background-color: #2584ff;
+    padding: 10px 20px;
+    color: white;
+}
+
+.money{
+    font-size: 4rem;
+}
+
+.discount{
+    background-color: rgb(192, 191, 191, 0.5);
+    padding: 4px 9px;
+    margin-left: 7px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.features{
+    font-size: large;
+    line-height: 4;
+    list-style-image: url(https://www.moshified.com/tick.626c29a3.svg);
+}
+
+.buy-now{
+    margin: 5px;
+    padding: 20px 50px;
+    width: 100%;
+    border-radius: 40px;
+    background-color: white;
+    font-weight: 700;
+    text-align: center;
+}
